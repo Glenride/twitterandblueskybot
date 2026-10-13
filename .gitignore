@@ -1,0 +1,31 @@
+# Live secrets — NEVER commit
+.env
+.env.local
+.env.*
+*-cookies.json
+*cookies*.json
+*.key
+*.pem
+
+# Runtime data
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+voc.db
+runs/
+
+# Python venvs
+.venv*
+venv/
+__pycache__/
+*.pyc
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+robot-first.”
+
+# Misc artifacts
+*.bak
